@@ -1,0 +1,448 @@
+/* start main rules */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+header .slider {
+    background-image: url("../project1/manga-one-piece-wallpaper-preview.jpg");
+    background-size: cover;
+    height: 600px;
+}
+
+header .slider .one-piece {
+    color: #fff;
+    padding-top: 250px;
+    text-align: center;
+}
+
+header .slider .one-piece h2 {
+    margin: 0 auto;
+    font-size: 50px;
+    width: 600px;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+}
+
+header .slider .one-piece button {
+    background: none;
+    margin-top: 30px;
+    font-size: 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+/* end main rules */
+/* start header */
+nav {
+    background-color: #252f31;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 50px;
+    padding-top: 0px;
+    ;
+}
+
+nav h2 {
+    float: left;
+}
+
+nav h2 span {
+    color: aquamarine;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    display: inline;
+    overflow: hidden;
+}
+
+nav ul li {
+    padding: 20px;
+    float: right;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #308576;
+
+}
+
+/* end header */
+/* featers */
+.featers {
+    overflow: hidden;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #60678f;
+    margin-bottom: 48px;
+
+}
+
+.featers .feat {
+    float: left;
+    width: 33.333333333%;
+    height: 150px;
+    text-transform: capitalize;
+}
+
+/* start about one piece */
+.about-onepiece {
+    background-color: #2196f373;
+    width: 100%;
+    height: 600px;
+    text-transform: uppercase;
+}
+
+.about-onepiece .image {
+    float: left;
+    width: 40%;
+    background-size: cover;
+}
+
+.about-onepiece .image>img {
+    width: 100%;
+    height: 600px;
+}
+
+.about-onepiece .info {
+    float: right;
+    width: 60%;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.about-onepiece .info h2 {
+    margin: 40px 0px 20px 40px;
+}
+
+.about-onepiece .info p {
+    margin: 0 0 10px 40px;
+    line-height: 1.7;
+    color: #888;
+}
+
+.about-onepiece .info .sagas {
+    overflow: hidden;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.about-onepiece .info .sagas>div {
+    float: left;
+    width: 50%;
+    min-height: 100px;
+}
+
+/* skills */
+.power {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    width: 100%;
+    height: 400px;
+}
+
+.power .skills h2 {
+    margin: 40px 0px 20px 40px
+}
+
+.power .skills p {
+    margin: 0 0 10px 40px;
+    line-height: 1.7;
+    color: #888
+}
+
+.power .skills,
+.power .the-best {
+    float: left;
+    width: 50%;
+}
+
+.power .skills button {
+    background: none;
+    border: 3px solid #2dcc70;
+    padding: 5px 5px;
+    color: #2dcc70;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+
+.power .the-best .love {
+    margin-left: 40px;
+}
+
+.power .the-best .love div {
+    background-color: #f2f2f2;
+    height: 20px;
+}
+
+.power .the-best .love div span {
+    background-color: #2dcc70;
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    text-align: right;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* start resume */
+.resume {
+    background-color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.resume p {
+    color: #888;
+}
+
+.resume button {
+    background: none;
+    border: 3px solid #2dcc70;
+    padding: 5px 5px;
+    color: #2dcc70;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+
+/* education */
+.education {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    width: 100%;
+    height: 250px;
+}
+
+.education h2 {
+    margin: 40px 0px 20px 40px
+}
+
+.education p {
+    color: #888;
+}
+
+.education .main {
+    float: left;
+    margin-right: 5%;
+    width: 50%;
+
+}
+
+.education .exp {
+    float: left;
+    width: 45%;
+}
+
+.education .exp h3 {
+    margin-top: 80px;
+}
+
+/* world */
+.world {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    width: 100%;
+    height: 250px;
+}
+
+.world .wo {
+    float: left;
+    margin-right: 5%;
+    width: 50%;
+
+}
+
+.world .wo h2 {
+    margin: 40px 0px 20px 40px
+}
+
+.world .wo p {
+    color: #888;
+}
+
+.world .ld {
+    float: left;
+    width: 45%;
+}
+
+.world .ld h3 {
+    margin-top: 80px;
+}
+
+.world .ld p {
+    color: #888;
+}
+
+/* test */
+.test {
+    background-color: #f2f2f2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+q {
+    line-height: 1.7px;
+    color: #888;
+    font: size 18px;
+    font-weight: bold;
+}
+
+.test h3 {
+    color: #777
+}
+
+.test ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.test ul li {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #2dcc70;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.test ul li.active,
+.test ul li:hover {
+    background-color: #2dcc70;
+}
+
+/* photo */
+.photo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    text-align: center;
+    height: 1300px;
+    ;
+}
+
+.photo h2 {
+    margin: 40px 0px 20px 40px
+}
+
+.photo p {
+    color: #888;
+}
+
+.photo .episode {
+    overflow: hidden;
+}
+
+.photo .episode>div {
+    float: left;
+    width: 33.333333%;
+    margin-bottom: 20px;
+}
+
+.photo .episode>div img {
+    width: 92%;
+    margin: 10px;
+}
+
+/* contact-me */
+.contact-me {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #252f31;
+    width: 100%;
+    color: #fff;
+    height: 600px
+}
+
+.contact-me h2 {
+    color: #fff;
+    margin-left: 40px;
+
+}
+
+.contact-me .info {
+    float: left;
+    margin-right: 5%;
+    width: 50%;
+    overflow: hidden;
+}
+
+
+.contact-me .info p {
+    color: #6a6e71;
+    line-height: 1.7;
+}
+
+.contact-me .info address {
+    color: #888;
+}
+
+.contact-me .info p strong {
+    color: #d1d1d1;
+}
+
+.contact-me .form {
+    float: left;
+    width: 45%;
+    overflow: hidden;
+}
+
+.contact-me .form label {
+    display: block;
+    color: #6a6e71;
+    margin-bottom: 10px;
+}
+
+.contact-me .form input[type="text"] {
+    background-color: #4b5557;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.contact-me .form textarea {
+    background-color: #4b5557;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px;
+    height: 150px;
+}
+
+.contact-me .form input[type="submit"] {
+    background-color: #191e22;
+    color: #fff;
+    padding: 10px 20px;
+    border: 0;
+    margin-top: 10px;
+}
+
+/* footer */
+footer .container .copy {
+    background-color: #191e22;
+    color: #6a6e71;
+    padding: 20px 0;
+    text-align: center;
+}
